@@ -1,4 +1,4 @@
-# Associação Amigos do Bar
+# Site para Associação Amigos do Bar
 
 ## Índice
 ## Descrição
