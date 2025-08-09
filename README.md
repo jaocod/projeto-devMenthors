@@ -5,3 +5,7 @@
 ## Tecnologias Utilizadas
 ## Licença
 ## Autores
+### Davi Diniz Dalevedo - 
+### Heder -
+### João -
+### Isabella -
