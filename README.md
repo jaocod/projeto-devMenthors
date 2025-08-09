@@ -3,3 +3,5 @@
 ## Índice
 ## Descrição
 ## Tecnologias Utilizadas
+## Licença
+## Autores
