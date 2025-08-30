@@ -13,7 +13,7 @@ body{
 nav{
     display: flex;  
     padding: 15px;
-    background: linear-gradient(130deg, #4040CA, #D06B9C);
+    background: linear-gradient(130deg, var(--Azul),var(--Rosa));
 
     .left-nav{
         margin-right: auto;
@@ -26,13 +26,19 @@ nav{
     }
 
     .right-nav{
+        display: flex;
         margin-left: auto;
-
+        gap: 30px;
+        
         h3{
             color: var(--Branco);
             font-family: "Poppins", sans-serif;
             font-weight: 400;
             font-size: 20px;
+        }
+
+        a{
+            text-decoration: none;
         }
     }
 }

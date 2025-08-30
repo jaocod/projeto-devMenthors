@@ -1,0 +1,10 @@
+.banner{
+    background-color: black;
+    height: 979px;
+
+    img{
+        width: 100%;
+        opacity: 0.5;    
+    }
+    
+}
