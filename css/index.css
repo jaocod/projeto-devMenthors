@@ -2,6 +2,7 @@
 
 :root {
   --Azul: #4040CA;
+  --AzulEscuro: #303094;
   --Branco: #ffffff;
   --Rosa: #D06B9C;
 }
@@ -12,4 +13,10 @@
         width: 100%;
         height: 830px;
     }
+}
+
+hr{
+    margin: 0;
+    height: 15px;
+    background-color: var(--AzulEscuro);
 }
