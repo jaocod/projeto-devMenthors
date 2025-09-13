@@ -20,3 +20,30 @@ hr{
     height: 15px;
     background-color: var(--AzulEscuro);
 }
+
+.info{
+    display: flex;
+    margin-top: 30px;
+
+    .title{
+        margin: auto;
+
+        h1{
+            text-align: center;
+            font-size: 35px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        p{
+            margin: 0;  
+            text-align: center;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+
+    .
+
+    
+
+}
