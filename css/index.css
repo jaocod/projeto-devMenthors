@@ -8,7 +8,7 @@
 }
 
 .banner{   
-    background: linear-gradient(130deg, var(--Azul),var(--Rosa));
+    background: linear-gradient(90deg, var(--Azul),var(--Rosa));
     height: 800px;
 
     .banner-div{

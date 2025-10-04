@@ -8,16 +8,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <nav>
-        <div class="left-nav">
-            <img src="assets/logo.png" alt="">
-        </div>
-        <div class="right-nav">
-            <a href="index.html"><h3 class="nav-item">INICIO</h3></a>
-            <a href="projects.html"><h3 class="nav-item">PROJETOS</h3></a>   
-        </div>
-    </nav>
-
+    <?php
+        require_once "components/navbar.php";
+    ?>
     <div class="banner">    
         <div class="banner-div">
             <div class="banner-title">
@@ -68,6 +61,10 @@
             </div>     
         </div>
     </div>
+
+    <?php
+        require_once "components/footer.php"
+    ?>
 
 </body>
 </html>
