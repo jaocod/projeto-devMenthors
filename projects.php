@@ -15,7 +15,7 @@
 
     <div class="title">
         <h1>Nossos Projetos</h1>
-        <h3>Conheça as iniciativas que estão mudando vidas em Marilia</h3>
+        <h3>Conheça as iniciativas que estão mudando <br> vidas em Marilia</h3>
     </div>
 
     <div class="filter">
@@ -59,5 +59,9 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2f383b6203f46f3c566db3816c47ce5ff60a051f
 </body>
 </html>
