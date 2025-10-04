@@ -21,7 +21,7 @@
 
     <div class="title">
         <h1>Nossos Projetos</h1>
-        <h3>Conheça as iniciativas que estão mudando vidas em Marilia</h3>
+        <h3>Conheça as iniciativas que estão mudando <br> vidas em Marilia</h3>
     </div>
 
     <div class="filter">
