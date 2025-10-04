@@ -7,22 +7,28 @@
   --Rosa: #D06B9C;
 }
 
+
 .banner{   
     background: linear-gradient(130deg, var(--Azul),var(--Rosa));
-    height: 800px;
 
     .banner-div{
-        width: fit-content;
+        display: flex;
         margin: auto;
-        margin-left: 50px;
-        margin-top: auto;
-        
+        width: fit-content;
+        text-align: center;
+        padding: 200px;
 
-        .banner-title{
-            
-            h1{
-                margin: 0;
-            }
+        h1{
+            margin: 0;
+            font-size: 50px;
+            font-family: "Poppins", sans-serif;
+            color: var(--Branco);
+        }
+
+        h3{
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            color: var(--Branco);
         }
     }
 }
@@ -110,9 +116,4 @@ hr{
             }
         }
     }
-
-    
-
-    
-
 }

@@ -21,13 +21,10 @@
     <div class="banner">    
         <div class="banner-div">
             <div class="banner-title">
-                <!-- <h1>Associação<br>Amigos do<br>Bar</h1>
-            </div>
-            <div class="banner-text">
-                <h3>Doando doses de soliedariredade</h3> -->
+                <h1>Associação<br>Amigos do Bar</h1>
+                <h3>Doando doses de soliedariredade</h3> 
             </div>
         </div>
-        
     </div>
 
     <hr>
