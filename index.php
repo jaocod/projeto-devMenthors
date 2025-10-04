@@ -13,8 +13,8 @@
             <img src="assets/logo.png" alt="">
         </div>
         <div class="right-nav">
-            <a href="index.html"><h3 class="nav-item">INICIO</h3></a>
-            <a href="projects.html"><h3 class="nav-item">PROJETOS</h3></a>   
+            <a href="index.php"><h3 class="nav-item">INICIO</h3></a>
+            <a href="projects.php"><h3 class="nav-item">PROJETOS</h3></a>   
         </div>
     </nav>
 
