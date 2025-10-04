@@ -18,8 +18,16 @@
         </div>
     </nav>
 
-    <div class="banner">
-        <img src="assets/banner.png" alt="">
+    <div class="banner">    
+        <div class="banner-div">
+            <div class="banner-title">
+                <!-- <h1>Associação<br>Amigos do<br>Bar</h1>
+            </div>
+            <div class="banner-text">
+                <h3>Doando doses de soliedariredade</h3> -->
+            </div>
+        </div>
+        
     </div>
 
     <hr>
@@ -32,7 +40,7 @@
 
         <div class="info">
             <div class="div-img">
-                <img src="assets/placeholder.jpg" alt="">
+                <img src="assets/values.svg" alt="">
             </div>
 
             <div class="text">

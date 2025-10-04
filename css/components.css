@@ -13,7 +13,7 @@ body{
 nav{
     display: flex;  
     padding: 15px;
-    background: linear-gradient(130deg, var(--Azul),var(--Rosa));
+    background-color: var(--Azul);
 
     .left-nav{
         margin-right: auto;
