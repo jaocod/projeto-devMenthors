@@ -13,9 +13,11 @@ body{
 nav{
     display: flex;  
     padding: 15px;
+    margin-bottom: 40px;
     background: linear-gradient(90deg, var(--Azul), var(--Rosa));
     position: fixed;
     width: 100%;
+    top: 0;
     .left-nav{
         margin-right: auto;
         width: 50%;
@@ -51,6 +53,7 @@ footer {
   color: #fff;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
+  margin-top: 40px;
 }
 
 .footer-container {

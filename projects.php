@@ -58,11 +58,6 @@
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
             </div>
         </div>
-
     </div>
-
-
-
-
 </body>
 </html>

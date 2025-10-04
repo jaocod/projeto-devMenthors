@@ -13,6 +13,7 @@
         <div class="right-nav">
             <a href="index.php"><h3 class="nav-item">INICIO</h3></a>
             <a href="projects.php"><h3 class="nav-item">PROJETOS</h3></a>   
+            <a href="contato.php"><h3 class="nav-item">CONTATO</h3></a>   
         </div>
     </nav>
 </body>
