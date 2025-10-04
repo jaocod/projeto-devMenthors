@@ -22,7 +22,7 @@
         <div class="banner-div">
             <div class="banner-title">
                 <h1>Associação<br>Amigos do Bar</h1>
-                <h3>Doando doses de soliedariredade</h3> 
+                <h3>Doando doses de solidariedade</h3> 
             </div>
         </div>
     </div>
