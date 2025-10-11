@@ -30,8 +30,7 @@ nav{
 
     .right-nav{
         display: flex;
-        margin-left: auto;
-        margin-right: 40px;
+        margin: auto 40px auto auto;
         gap: 30px;
         
         h3{

@@ -1,7 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+:root {
+  --Azul: #4040CA;
+  --AzulEscuro: #303094;
+  --azulEscuroHover: #303094b4;
+  --Branco: #ffffff;
+  --Rosa: #D06B9C;
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 160px;
+    max-height: max-content;
+}
+
+.title-form{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1, h2{
+    background: linear-gradient(90deg, var(--Azul), var(--Rosa));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+.form-container{
+    height: auto;
+    padding: 30px 15px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    background: linear-gradient(130deg, var(--Azul), var(--Rosa));
+    max-width: 70%;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.inputsLeft, .inputsRight{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+
+.inputsLeft{
+    gap: 40px
+}
+
+#textArea{
+    background: linear-gradient(90deg, var(--AzulEscuro), var(--Rosa));
+    border: 1px solid #666;
+    border-radius: 7px;
+    padding: 10px;
+    color: #f2f2f2;
+    outline: none;
+    resize: none;
+    font-size: 1.1em;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputs input::placeholder, #textArea::placeholder{
+    color: #c9c9c9;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0px 2px 5px #444;
+    color: #f2f2f2;
+    padding-left: 7px;
+    border: none;
+    border-radius: 7px;
+}
+
+.submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, var(--AzulEscuro), var(--Rosa));
+    color: #f2f2f2;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--azulEscuroHover), var(--Rosa));
 }
