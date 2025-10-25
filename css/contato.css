@@ -121,3 +121,8 @@ h1, h2{
     cursor: pointer;
     background: linear-gradient(90deg, var(--azulEscuroHover), var(--Rosa));
 }
+
+.alerta-sucesso{
+    background-color: rgb(75, 184, 75);
+    color: black;
+}

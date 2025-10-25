@@ -15,7 +15,12 @@
             <div class="title-form">
                 <h1>Entre em Contato</h1>
                 <h2>Estamos aqui para ajudar! Entre em contato conosco</h2>
-                <span class="teste"><?php isset($_GET['send']) ? print $_GET['send'] : ''?></span>
+                <span 
+                    class="
+                        <?php isset($_GET['send']) ? print $_GET['send'] : ''
+                    ?>">
+                    <?php isset($_GET['send']) ? print $_GET['send'] : ''?>
+                </span>
             </div>
             <div class="form-container">
                 <form class="form" action="enviar_email.php" method="POST">
