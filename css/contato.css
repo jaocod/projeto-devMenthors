@@ -61,19 +61,27 @@ h1, h2{
     padding: 15px;
 }
 
+.inputTextArea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .inputsLeft{
     gap: 40px
 }
 
 #textArea{
     background: linear-gradient(90deg, var(--AzulEscuro), var(--Rosa));
-    border: 1px solid #666;
+    border: 1px solid #444;
     border-radius: 7px;
     padding: 10px;
     color: #f2f2f2;
     outline: none;
     resize: none;
     font-size: 1.1em;
+    width: 80%;
+    box-shadow: 0px 2px 5px #444;
 }
 
 
@@ -114,7 +122,7 @@ h1, h2{
     color: #f2f2f2;
     font-size: 1.1em;
     font-weight: bold;
-    transition: 1s;
+    box-shadow: 0px 2px 5px #444;
 }
 
 #submit:hover{
@@ -125,4 +133,48 @@ h1, h2{
 .alerta-sucesso{
     background-color: rgb(75, 184, 75);
     color: black;
+}
+
+.division{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(130deg, var(--Azul),var(--Rosa));
+    margin-top: 5%;
+}
+
+.localization{
+    margin-top: 5%;
+    width: 70%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(130deg, var(--Azul),var(--Rosa));
+    flex-direction: column;
+    box-shadow: 0px 2px 5px #444;
+
+}
+
+.textMap{
+    color: #fff;
+    width: 100%;
+    font-size: 1.6rem;
+    margin: auto auto;
+    text-align: center;
+}
+
+.textMap p{
+    margin-top: 30px;
+}
+
+.map{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+}
+
+#map{
+    width: 100%;
+    height: 96%;
+    border: none;
 }
